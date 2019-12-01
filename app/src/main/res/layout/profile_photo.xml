@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:parentTag="com.example.customviewgroup.ProfilePhotoLayout">
+
+  <ImageView
+      android:id="@+id/photo"
+      android:layout_width="60dp"
+      android:layout_height="60dp"
+      android:layout_margin="5dp"
+      android:background="@android:color/holo_blue_light"
+      tools:ignore="ContentDescription" />
+
+  <TextView
+      android:id="@+id/title"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_margin="5dp"
+      android:textSize="22sp"
+      android:text="Title"
+      tools:ignore="HardcodedText" />
+
+  <TextView
+      android:id="@+id/subtitle"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_margin="3dp"
+      android:textSize="16sp"
+      android:text="Some information will go here"
+      tools:ignore="HardcodedText" />
+
+  <ImageView
+      android:id="@+id/menu"
+      android:layout_width="40dp"
+      android:layout_height="40dp"
+      android:layout_margin="5dp"
+      android:background="@android:color/holo_red_light"
+      tools:ignore="ContentDescription" />
+</merge>
